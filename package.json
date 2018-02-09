@@ -1,0 +1,40 @@
+{
+	"name": "kixtart",
+	"displayName": "KiXtart",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"publisher": "cyann",
+	"description": "KiXtart language syntax highlighting",
+	"icon": "images/kixtart.png",
+	"categories": [
+		"Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "kixtart",
+				"aliases": [
+					"KiXtart",
+					"kixtart"
+				],
+				"extensions": [
+					".kix"
+				]
+			}
+		],
+		"grammars": [
+			{
+				"language": "kixtart",
+				"scopeName": "source.kix",
+				"path": "./syntaxes/kixtart.tmLanguage"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "3b0d82c9-95a9-4e6d-bd19-bcdd3c837014",
+		"publisherId": "5af4b11b-5c7d-4bc2-aa14-e54b482b4bad",
+		"publisherDisplayName": "cyann"
+	}
+}
